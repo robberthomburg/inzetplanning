@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p There are #{emps.length} #{title}
+  div
+  each emp in emps
+    h3 #{emp.firstname} #{emp.lastname}
+    a(href='view/#{emp.email}') more
+    | -
+    a(href='edit/#{emp.email}') edit
+    | -
+    a(href='delete/{#emp.email}') delete
