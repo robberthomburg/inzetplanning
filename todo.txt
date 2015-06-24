@@ -1,0 +1,9 @@
+wijzigen van items mogelijk maken
+starten met angular
+ombouwen naar meer vanuit een pagina
+pagina mooi maken
+klanten toevoegen
+projecten toevoegen
+inzetten toevoegen
+gantt chart kunnen maken van mensen en hun inzetten
+filter in de gantt chart maken op skill en vestiging
