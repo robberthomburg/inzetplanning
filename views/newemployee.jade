@@ -1,0 +1,18 @@
+extends layout
+
+block content
+
+  p #{title}
+  form(name='input', method='get')
+
+  input(type='text', name='firstname', value='')
+  | -
+  input(type='text', name='lastname', value='')
+  | -
+  input(type='text', name='email', value='')
+  | -
+  input(type='text', name='skill', value='')
+  | -
+  input(type='text', name='branche', value='')
+  | -
+  input(type='submit', value='Submit')
